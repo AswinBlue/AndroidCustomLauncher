@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="3"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:rowCount="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/image_btn0"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@android:drawable/alert_light_frame"
+                 />
+            <!--                android:src="@drawable/add_app"-->
+            <TextView
+                android:id="@+id/label_btn0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#00BCD4"
+                android:textColorHint="#FFFFFF" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/image_btn1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@android:color/transparent"
+                android:backgroundTint="#3F51B5"
+                android:scaleType="fitCenter"
+                android:src="@android:drawable/alert_light_frame"
+                 />
+            <!--                android:src="@drawable/add_app"-->
+            <TextView
+                android:id="@+id/label_btn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#00BCD4"
+                android:textColorHint="#FFFFFF" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/image_btn2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@android:color/transparent"
+                android:backgroundTint="#3F51B5"
+                android:scaleType="fitCenter"
+                android:src="@android:drawable/alert_light_frame"
+                 />
+            <!--                android:src="@drawable/add_app"-->
+            <TextView
+                android:id="@+id/label_btn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#00BCD4"
+                android:textColorHint="#FFFFFF" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/image_btn3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@android:color/transparent"
+                android:backgroundTint="#3F51B5"
+                android:scaleType="fitCenter"
+                android:src="@android:drawable/alert_light_frame"
+                 />
+            <!--                android:src="@drawable/add_app"-->
+            <TextView
+                android:id="@+id/label_btn3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#00BCD4"
+                android:textColorHint="#FFFFFF" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/image_btn4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@android:color/transparent"
+                android:backgroundTint="#3F51B5"
+                android:scaleType="fitCenter"
+                android:src="@android:drawable/alert_light_frame"
+                 />
+            <!--                android:src="@drawable/add_app"-->
+            <TextView
+                android:id="@+id/label_btn4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#00BCD4"
+                android:textColorHint="#FFFFFF" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/image_btn5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@android:color/transparent"
+                android:backgroundTint="#3F51B5"
+                android:scaleType="fitCenter"
+                android:src="@android:drawable/alert_light_frame"
+                 />
+            <!--                android:src="@drawable/add_app"-->
+            <TextView
+                android:id="@+id/label_btn5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#00BCD4"
+                android:textColorHint="#FFFFFF" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/image_btn6"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@android:color/transparent"
+                android:backgroundTint="#3F51B5"
+                android:scaleType="fitCenter"
+                android:src="@android:drawable/alert_light_frame"
+                 />
+            <!--                android:src="@drawable/add_app"-->
+            <TextView
+                android:id="@+id/label_btn6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#00BCD4"
+                android:textColorHint="#FFFFFF" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/image_btn7"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@android:color/transparent"
+                android:backgroundTint="#3F51B5"
+                android:scaleType="fitCenter"
+                android:src="@android:drawable/alert_light_frame"
+                 />
+            <!--                android:src="@drawable/add_app"-->
+            <TextView
+                android:id="@+id/label_btn7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#00BCD4"
+                android:textColorHint="#FFFFFF" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/image_btn8"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@android:color/transparent"
+                android:backgroundTint="#3F51B5"
+                android:scaleType="fitCenter"
+                android:src="@android:drawable/alert_light_frame"
+                 />
+            <!--                android:src="@drawable/add_app"-->
+            <TextView
+                android:id="@+id/label_btn8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#00BCD4"
+                android:textColorHint="#FFFFFF" />
+
+        </LinearLayout>
+
+    </GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
